@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Oooppss</title>
+</head>
+<body>
+<center>
+    <h1>
+        something went wrong... please try after sometime!!
+        <br>
+        <a href="/">Go to Home page</a>
+    </h1>
+    <br><br>
+    <table>
+        <tr>
+            <th>ERROR CODE</th>
+            <th>ERROR CODE VALUE</th>
+        </tr>
+        <tr>
+            <td th:text="${code}"></td>
+            <td th:text="${codevalue}"></td>
+        </tr>
+    </table>
+</center>
+</body>
+</html>
